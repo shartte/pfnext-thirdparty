@@ -4,3 +4,6 @@
 [submodule "filament"]
 	path = filament
 	url = https://github.com/google/filament/
+[submodule "ozz-animation"]
+	path = ozz-animation
+	url = https://github.com/guillaumeblanc/ozz-animation.git
