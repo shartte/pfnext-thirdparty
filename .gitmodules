@@ -10,3 +10,6 @@
 [submodule "zstd"]
 	path = zstd
 	url = https://github.com/facebook/zstd.git
+[submodule "GSL"]
+	path = GSL
+	url = https://github.com/Microsoft/GSL.git
