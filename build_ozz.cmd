@@ -3,7 +3,7 @@ rd /s /q ozz-release
 mkdir ozz-release
 cd ozz-release
 cmake ..\ozz-animation -G Ninja ^
--DCMAKE_BUILD_TYPE=Release ^
+-DCMAKE_BUILD_TYPE=RelWithDebInfo ^
 -DCMAKE_INSTALL_PREFIX:PATH=..\out\ozz-release\
 
 ..\ninja.exe -j4
